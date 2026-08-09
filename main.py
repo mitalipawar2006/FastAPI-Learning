@@ -39,6 +39,7 @@ async def get_async_example():
     return {
         "status": "success",
         "data": "Async operation completed successfully!",
+        
         "timestamp": time.time()
     }
 
