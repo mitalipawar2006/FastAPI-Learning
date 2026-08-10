@@ -2,24 +2,56 @@
 
 This repository contains my hands-on learning and practice with **FastAPI** and Python.
 
-I am building small APIs step-by-step while learning concepts such as HTTP methods, routing, Pydantic models, asynchronous programming, Swagger documentation, and Git/GitHub.
+I am building small APIs step-by-step while learning concepts such as HTTP methods, routing, request bodies, Pydantic models, path and query parameters, asynchronous programming, Swagger documentation, and Git/GitHub.
 
 ## 📚 Topics Covered
 
+### FastAPI Basics
+- FastAPI application setup
+- Uvicorn server
+- API endpoints
 - HTTP Methods
   - GET
   - POST
-  - PUT
-  - DELETE
 - FastAPI Routing
-- GET and POST Endpoints
+
+### Parameters
+- Path Parameters
+- Query Parameters
+- Optional Query Parameters
+- Type Hints
+- Parameter Validation
+
+### Request Body & Pydantic
+- JSON Request Body
 - Pydantic `BaseModel`
-- Request Body and JSON
-- Swagger UI / API Documentation
-- Async and Await
+- Pydantic Models
+- Required and Optional Fields
+- `EmailStr`
+- `Field()`
+- Data Validation
+- Validation Errors (`422`)
+- `model_dump()`
+
+### Asynchronous Programming
+- `async`
+- `await`
 - Synchronous vs Asynchronous Operations
-- In-memory data storage
-- Basic Git and GitHub workflow
+
+### API Documentation
+- Swagger UI
+- Interactive API Testing
+- Automatic API Documentation
+
+### Data Storage
+- In-memory data storage using Python lists/dictionaries
+
+### Git & GitHub
+- `git status`
+- `git add`
+- `git commit`
+- `git push`
+- Working with GitHub repositories
 
 ## 🛠️ Technologies Used
 
@@ -28,7 +60,8 @@ I am building small APIs step-by-step while learning concepts such as HTTP metho
 - Uvicorn
 - Pydantic
 - HTTPX
-- Git & GitHub
+- Git
+- GitHub
 
 ## 📁 Project Structure
 
@@ -37,5 +70,6 @@ FastAPI_Project/
 │
 ├── main.py
 ├── lesson8.py
+├── pydantic_user.py
 ├── .gitignore
 └── README.md
